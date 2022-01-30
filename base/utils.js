@@ -4,6 +4,6 @@ exports.resolve = function (path) {
   }
 
   return require.resolve(path, {
-    paths: require.main?.paths ?? module.paths,
+    paths: require.main ? require.main.paths : module.paths,
   });
 };
