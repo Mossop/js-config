@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
     "noImplicitAny": true,
     "noImplicitOverride": true,
