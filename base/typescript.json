@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "target": "es2020",
     "moduleResolution": "node",
-    "esModuleInterop": true,
 
     "noImplicitAny": true,
     "noImplicitOverride": true,
