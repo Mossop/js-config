@@ -1,14 +1,12 @@
-const { resolve } = require("../base/utils");
-
 module.exports = {
   extends: [
     "eslint-config-airbnb-base",
     "eslint-config-airbnb-typescript/base",
     "eslint-config-prettier",
-    "./eslint-overrides",
-  ].map(resolve),
+    "../base/eslint-overrides",
+  ].map(require.resolve),
 
-  parser: resolve("@typescript-eslint/parser"),
+  parser: require.resolve("@typescript-eslint/parser"),
 
   parserOptions: {
     ecmaVersion: 2018,
