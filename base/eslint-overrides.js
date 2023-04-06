@@ -3,6 +3,7 @@ module.exports = {
     "class-methods-use-this": "off",
     eqeqeq: "off",
     "max-classes-per-file": "off",
+    "no-await-in-loop": "off",
     "no-continue": "off",
     "no-plusplus": "off",
     "no-restricted-syntax": [
@@ -25,5 +26,6 @@ module.exports = {
     ],
     "prefer-const": "off",
     "import/prefer-default-export": "off",
+    "import/extensions": "off",
   },
 };
