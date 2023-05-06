@@ -1,0 +1,15 @@
+{
+  "extends": "../base/typescript",
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "jsx": "react-native",
+
+    "esModuleInterop": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  }
+}
