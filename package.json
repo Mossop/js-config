@@ -1,6 +1,6 @@
 {
   "name": "@mossop/config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared configurations for my projects",
   "author": "Dave Townsend <dtownsend@oxymoronical.com>",
   "license": "MIT",
