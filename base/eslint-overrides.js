@@ -27,5 +27,20 @@ module.exports = {
     "prefer-const": "off",
     "import/prefer-default-export": "off",
     "import/extensions": "off",
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "type",
+          "builtin",
+          "external",
+          ["internal", "parent", "sibling"],
+        ],
+        "newlines-between": "always",
+        alphabetize: {
+          order: "asc",
+        },
+      },
+    ],
   },
 };
