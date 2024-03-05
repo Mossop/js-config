@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
-    "eslint-config-airbnb-base",
-    "eslint-config-airbnb-typescript/base",
+    "eslint-config-airbnb",
+    "eslint-config-airbnb/hooks",
+    "eslint-config-airbnb-typescript",
     "eslint-config-prettier",
     "../base/eslint-overrides",
   ].map(require.resolve),
