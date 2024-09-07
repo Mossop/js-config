@@ -25,6 +25,7 @@ module.exports = {
       },
     ],
     "prefer-const": "off",
+    "prefer-destructuring": ["error", {"object": true, "array": false}],
     "import/prefer-default-export": "off",
     "import/extensions": "off",
     "import/order": [
