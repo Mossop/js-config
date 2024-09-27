@@ -2,7 +2,6 @@ import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import eslintReact from "eslint-plugin-react";
 import eslintHooks from "eslint-plugin-react-hooks";
-import eslintPrettier from "eslint-config-prettier";
 import eslintOverrides from "../base/eslint-overrides.js";
 import reactOverrides from "../base/react-overrides.js";
 import tsOverrides from "../base/ts-overrides.js";
@@ -20,7 +19,6 @@ export default [
     },
     rules: eslintHooks.configs.recommended.rules,
   },
-  eslintPrettier,
   eslintOverrides,
   tsOverrides,
   reactOverrides,
