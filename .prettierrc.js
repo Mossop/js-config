@@ -1,1 +1,3 @@
-module.exports = "./base/prettier";
+import base from "./base/prettier.js";
+
+export default base;

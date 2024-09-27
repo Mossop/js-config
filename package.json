@@ -1,31 +1,31 @@
 {
   "name": "@mossop/config",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "Shared configurations for my projects",
   "author": "Dave Townsend <dtownsend@oxymoronical.com>",
   "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./remix/eslint": "./remix/eslint.js",
+    "./remix/tsconfig": "./remix/tsconfig.json",
+    "./remix/prettier": "./base/prettier.js"
+  },
   "scripts": {
     "prettier": "prettier --write ."
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-next": "^14.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "@eslint/js": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-ts": "^0.4.2",
-    "eslint-plugin-import": "^2.29.1",
-    "jest": "^29.5.0",
-    "prettier": "^3.2.5",
-    "ts-jest": "^29.1.0",
-    "typescript": "^5.4.3"
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "rc",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.7.0"
   },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.3"
   }
 }

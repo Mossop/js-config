@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     "class-methods-use-this": "off",
     eqeqeq: "off",
@@ -25,25 +25,6 @@ module.exports = {
       },
     ],
     "prefer-const": "off",
-    "prefer-destructuring": ["error", {"object": true, "array": false}],
-    "import/prefer-default-export": "off",
-    "import/extensions": "off",
-    "import/order": [
-      "error",
-      {
-        groups: [
-          "type",
-          "builtin",
-          "external",
-          ["internal", "parent", "sibling"],
-        ],
-        "newlines-between": "always",
-        alphabetize: {
-          order: "asc",
-        },
-      },
-    ],
-    "react/require-default-props": "off",
-    "react/jsx-props-no-spreading": "off",
+    "prefer-destructuring": ["error", { object: true, array: false }],
   },
 };

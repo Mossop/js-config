@@ -9,5 +9,4 @@ configuration set:
 * `web-ts`: Web apps written in TypeScript.
 * `react-ts`: React apps written in TypeScript.
 * `react-native-ts`: React Native apps written in TypeScript.
-* `next-ts`: Next.js apps written in TypeScript.
 * `remix-ts`: Remix apps written in TypeScript.
