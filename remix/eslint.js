@@ -25,26 +25,28 @@ export default [
 
   {
     rules: {
-      "no-console": "off",
       "react/react-in-jsx-scope": "off",
     },
 
     settings: {
-      "react": {
-        "version": "detect",
-      }
-    }
+      react: {
+        version: "detect",
+      },
+    },
   },
   {
-    files: ["server.{js,mjs,cjs,tx,tsx,jsx}", "app/entry.server.{js,mjs,cjs,tx,tsx,jsx}"],
+    files: [
+      "server.{js,mjs,cjs,tx,tsx,jsx}",
+      "app/entry.server.{js,mjs,cjs,tx,tsx,jsx}",
+    ],
     languageOptions: {
-      globals: globals.node
-    }
+      globals: globals.node,
+    },
   },
   {
     files: ["public/**/*.js", "app/entry.client.{js,mjs,cjs,tx,tsx,jsx}"],
     languageOptions: {
-      globals: globals.browser
-    }
-  }
+      globals: globals.browser,
+    },
+  },
 ];

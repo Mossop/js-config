@@ -8,7 +8,10 @@
   "exports": {
     "./remix/eslint": "./remix/eslint.js",
     "./remix/tsconfig": "./remix/tsconfig.json",
-    "./remix/prettier": "./base/prettier.js"
+    "./remix/prettier": "./base/prettier.js",
+    "./vscode/eslint": "./vscode/eslint.js",
+    "./vscode/tsconfig": "./vscode/tsconfig.json",
+    "./vscode/prettier": "./base/prettier.js"
   },
   "scripts": {
     "prettier": "prettier --write ."

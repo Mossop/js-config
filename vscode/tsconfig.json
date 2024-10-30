@@ -1,0 +1,20 @@
+{
+  "extends": "../base/tsconfig.strict.json",
+
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "module": "Node16",
+    "target": "ES2022",
+    "allowJs": true,
+    "incremental": true,
+    "outDir": "out",
+    "sourceMap": true,
+    "rootDir": "src",
+  },
+
+  "exclude": ["node_modules/**", "out/**"],
+  "include": ["src/**"],
+}

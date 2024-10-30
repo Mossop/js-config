@@ -4,6 +4,7 @@ export default {
     eqeqeq: "off",
     "max-classes-per-file": "off",
     "no-await-in-loop": "off",
+    "no-console": "off",
     "no-continue": "off",
     "no-plusplus": "off",
     "no-restricted-syntax": [
